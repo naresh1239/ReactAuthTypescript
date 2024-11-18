@@ -30,7 +30,7 @@ const ImageCrusal = () => {
   
   
     return (
-    <div>
+    <div className='image'>
  {
    <img 
     src={images[CurrentImage].imageURL}
