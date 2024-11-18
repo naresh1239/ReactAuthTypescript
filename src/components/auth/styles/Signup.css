@@ -1,0 +1,42 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.SignupMainBox{
+    width: 100%;
+    height: 100vh;
+    background: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.SignupMainBoxLeftSide{
+  flex : 1.5;
+  background-color: red;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.SignupMainBoxRightSide{
+    width: 100%;
+    height: 100%;
+    flex : 1;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+  }
+.SignupForm{
+    padding: 50px;
+    background: wheat;
+    width: 439px;
+}
+
+.SignupInputs{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
